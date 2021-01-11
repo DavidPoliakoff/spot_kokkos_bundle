@@ -1,0 +1,6 @@
+[submodule "tpl/caliper"]
+	path = tpl/caliper
+	url = https://github.com/llnl/caliper
+[submodule "tpl/adiak"]
+	path = tpl/adiak
+	url = https://github.com/llnl/adiak
