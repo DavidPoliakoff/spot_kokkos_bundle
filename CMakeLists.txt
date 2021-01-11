@@ -1,9 +1,9 @@
 project(spot-bundle)
 cmake_minimum_required(VERSION 3.12)
-set(WITH_MPI ON)
-set(WITH_KOKKOS ON)
-set(WITH_KOKKOS_PROFILING ON)
-set(WITH_ADIAK ON)
+set(WITH_MPI ON CACHE BOOL "")
+set(WITH_KOKKOS ON CACHE BOOL "")
+set(WITH_KOKKOS_PROFILING ON CACHE BOOL "")
+set(WITH_ADIAK ON CACHE BOOL "")
 add_subdirectory(tpl/caliper)
 find_package(adiak)
 
