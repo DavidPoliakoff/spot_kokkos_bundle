@@ -9,7 +9,7 @@ find_package(adiak)
 
 #get_property(ADIAK_INC DIRECTORY tpl/adiak PROPERTY INCLUDE_DIRECTORIES)
 get_property(CALI_INC DIRECTORY tpl/caliper PROPERTY INCLUDE_DIRECTORIES)
-
+include_directories(${adiak_INCLUDE_DIRS})
 #include_directories(${ADIAK_INC})
 include_directories(${CALI_INC})
 add_library(spot-bundle SHARED spot-bundle.cpp)
